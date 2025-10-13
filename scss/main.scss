@@ -7,7 +7,7 @@ html {
 }
 
 main {
-  margin-bottom: 230px;
+  margin-bottom: 270px;
 }
 
 footer.footer {
@@ -23,6 +23,7 @@ p {
 }
 .hero-scene {
   position: relative;
+  margin-bottom: 15px;
   &::before {
     content: "";
     position: absolute;
@@ -71,4 +72,14 @@ p {
     font-size: 26px;
     font-weight: bold;
   }
+}
+
+.form-label {
+  color: $primary;
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+  color: lightgrey;
+  opacity: 1;
 }
